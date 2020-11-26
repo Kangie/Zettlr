@@ -59,5 +59,10 @@ module.exports = {
         }
       }
     ]
-  ]
+  ],
+  'hooks': {
+    'pluginAfterExtract': [
+      'source/build-scripts/afterExtract.js'
+    ],
+  }
 }
